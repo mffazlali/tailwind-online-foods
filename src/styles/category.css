@@ -1,0 +1,15 @@
+.category-block {
+    @apply relative block w-full h-[140px] sm:h-[120px] overflow-hidden rounded-md before:absolute before:w-full before:h-full before:bg-orange-500 before:z-10 before:scale-0 before:hover:scale-150 before:transition-all before:duration-700 before:rounded-full before:hover:rounded-none before:origin-top-right;
+}
+
+.category-layer {
+    @apply absolute inset-0 w-full h-full bg-black/60 flex justify-center items-center;
+}
+
+.category-name {
+    @apply inline-block text-white capitalize text-lg sm:text-base z-20;
+}
+
+.category-column {
+    @apply w-full sm:w-6/12 md:w-4/12 lg:w-3/12 xl:w-[20%] p-3;
+}

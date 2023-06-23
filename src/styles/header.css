@@ -1,0 +1,47 @@
+.header {
+    @apply bg-gradient-to-b from-[#fc9286] to-transparent;
+}
+
+.header-left-col {
+    @apply w-full lg:w-6/12 p-5;
+}
+
+.header-badge {
+    @apply bg-amber-100 text-orange-800 font-medium text-xs capitalize inline-block rounded-2xl px-3 py-2;
+}
+
+.header-heading {
+    @apply lg:w-full md:w-9/12 text-3xl sm:text-2xl capitalize font-bold mt-5;
+}
+
+.header-delivery {
+    @apply bg-orange-600 text-white rotate-3 inline-block px-2 py-1;
+}
+
+.header-paragraph {
+    @apply mt-5 text-base text-gray-500;
+}
+
+.header-customers-ui {
+    @apply mt-5 flex items-center;
+}
+
+.header-customers-li {
+    @apply w-[40px] h-[40px] rounded-full overflow-hidden -ml-3 first:-ml-0;
+}
+
+.header-customers-msg {
+    @apply px-3 text-xs sm:text-sm capitalize font-medium text-orange-800;
+}
+
+.header-right-col {
+    @apply hidden lg:block lg:w-6/12;
+}
+
+.header-image {
+    @apply w-full h-auto object-cover;
+}
+
+.logo {
+    @apply absolute top-6 left-10 w-[40px] h-[40px];
+}
