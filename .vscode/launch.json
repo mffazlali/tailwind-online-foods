@@ -5,8 +5,20 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "command": "npm start",
+            "command": "npm run start",
             "name": "Run npm start",
+            "request": "launch",
+            "type": "node-terminal"
+        },
+        {
+            "command": "npm run dev",
+            "name": "Run npm dev",
+            "request": "launch",
+            "type": "node-terminal"
+        },
+        {
+            "command": "npm run prod",
+            "name": "Run npm prod",
             "request": "launch",
             "type": "node-terminal"
         }
