@@ -7,7 +7,7 @@
 }
 
 .pricing-card {
-    @apply text-center bg-yellow-50 border-2 border-yellow-200 border-dotted rounded-lg px-10 py-20;
+    @apply relative bg-yellow-50 border-2 border-yellow-200 border-dotted rounded-lg px-10 pt-20 pb-10;
 }
 
 .pricing-heading {
@@ -26,14 +26,18 @@
     @apply text-sm text-gray-500;
 }
 
-.pricing-list{
-    @apply flex items-center mb-5
+.pricing-list {
+    @apply flex items-center mb-5;
 }
 
-.pricing-list-icon{
-    @apply flex justify-center items-center bg-orange-600 rounded-full text-white w-[22px] h-[22px] mr-3
+.pricing-list-icon {
+    @apply flex justify-center items-center bg-orange-600 rounded-full text-white w-[22px] h-[22px] mr-3;
 }
 
-.pricing-list-feature{
-    @apply capitalize text-sm font-medium text-gray-600
+.pricing-list-feature {
+    @apply capitalize text-sm font-medium text-gray-600;
+}
+
+.pricing-label{
+    @apply absolute top-[20px] right-[-15px] bg-yellow-500 text-gray-800 font-bold px-5 py-2 capitalize text-xs after:absolute after:top-[12px] after:right-[6px] after:bg-yellow-600 after:w-10 after:h-full after:-rotate-[29deg] after:-z-10
 }

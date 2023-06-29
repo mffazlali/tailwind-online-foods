@@ -5,3 +5,7 @@
 .btn-default {
     @apply bg-orange-600 text-white focus:ring-2 ring-offset-2 ring-orange-400;
 }
+
+.btn-lg{
+    @apply px-5 py-3 font-medium text-base
+}

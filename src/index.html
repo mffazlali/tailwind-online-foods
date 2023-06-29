@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -22,7 +22,7 @@
         <span class="nav-open" id="open">
             <i class="bi bi-justify-left text-white text-xl"></i>
         </span>
-        <header class="header">
+        <header class="header" id="home">
             <div class="container relative">
                 <a href="#" class="logo">
                     <img
@@ -108,16 +108,21 @@
                 <i class="bi bi-x nav-close" id="close"></i>
                 <nav class="nav-ul">
                     <nav class="nav-li">
-                        <a href="#" class="nav-link">home</a>
-                        <a href="#" class="nav-link">sercies</a>
-                        <a href="#" class="nav-link">orders</a>
-                        <a href="#" class="nav-link">about</a>
-                        <a href="#" class="nav-link">contact</a>
+                        <a href="#home" class="nav-link">home</a>
+                        <a href="#categories" class="nav-link">categories</a>
+                        <a href="#dishes" class="nav-link">dishes</a>
+                        <a href="#pricing" class="nav-link">pricing</a>
+                        <a href="#testimonials" class="nav-link"
+                            >testimonials</a
+                        >
+                        <a href="#download-app" class="nav-link"
+                            >download app</a
+                        >
                     </nav>
                 </nav>
             </nav>
         </nav>
-        <section class="category">
+        <section class="category" id="categories">
             <div class="container">
                 <h1 class="heading">category</h1>
                 <div class="row -mx-3">
@@ -245,7 +250,7 @@
                 </div>
             </div>
         </section>
-        <section class="dishes">
+        <section class="dishes" id="dishes">
             <div class="container skew-y-2">
                 <h1 class="heading">pupular dishes</h1>
                 <div class="row -mx-3">
@@ -414,12 +419,13 @@
                 </div>
             </div>
         </section>
-        <section class="pricing">
+        <section class="pricing" id="pricing">
             <div class="container">
                 <h1 class="heading text-center">pricing</h1>
                 <div class="row -mx-6 justify-center">
                     <div class="pricing-column">
                         <div class="pricing-card">
+                            <span class="pricing-label">student 20%</span>
                             <h3 class="pricing-heading">monthly</h3>
                             <div class="my-2 text-center">
                                 <span class="pricing-sign">$</span>
@@ -462,11 +468,475 @@
                                     >
                                 </li>
                             </ul>
+                            <div class="mt-7">
+                                <a href="#" class="btn btn-default btn-lg"
+                                    >order now &rarr;</a
+                                >
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="pricing-column">
+                        <div class="pricing-card border-none bg-orange-100">
+                            <span class="pricing-label">student 30%</span>
+                            <h3 class="pricing-heading">Annual</h3>
+                            <div class="my-2 text-center">
+                                <span class="pricing-sign">$</span>
+                                <span class="pricing-price">648</span>
+                            </div>
+                            <p class="pricing-message">
+                                $648 per month, access limited foods.
+                            </p>
+                            <ul class="mt-7">
+                                <li class="pricing-list">
+                                    <span class="pricing-list-icon"
+                                        ><i class="bi bi-check2"></i
+                                    ></span>
+                                    <span class="pricing-list-feature"
+                                        >1 mean per day</span
+                                    >
+                                </li>
+                                <li class="pricing-list">
+                                    <span class="pricing-list-icon"
+                                        ><i class="bi bi-check2"></i
+                                    ></span>
+                                    <span class="pricing-list-feature"
+                                        >free delivery</span
+                                    >
+                                </li>
+                                <li class="pricing-list">
+                                    <span class="pricing-list-icon"
+                                        ><i class="bi bi-check2"></i
+                                    ></span>
+                                    <span class="pricing-list-feature"
+                                        >cancel any time</span
+                                    >
+                                </li>
+                                <li class="pricing-list">
+                                    <span class="pricing-list-icon"
+                                        ><i class="bi bi-x"></i
+                                    ></span>
+                                    <span class="pricing-list-feature"
+                                        >custom food order</span
+                                    >
+                                </li>
+                            </ul>
+                            <div class="mt-7">
+                                <a href="#" class="btn btn-default btn-lg"
+                                    >order now &rarr;</a
+                                >
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-        <script src="./js/script.js"></script>
+        <section class="testimonials" id="testimonials">
+            <div class="container">
+                <div class="testimonials-heading-block">
+                    <h1 class="heading">testimonials</h1>
+                    <h3 class="testimonials-heading">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing
+                        elit. Adipisci, iure. Exercitationem, illum pariatur?
+                        Hic vel debitis a consectetur, exercitationem facere
+                        omnis nihil tempore ipsa quis voluptas deserunt commodi
+                        laborum dignissimos!
+                    </h3>
+                </div>
+                <div class="row -mx-3">
+                    <div class="testimonials-left-col">
+                        <div class="row -mx-6">
+                            <div class="testimonials-comment-col">
+                                <div class="testimonials-user">
+                                    <span class="testimonials-user-img">
+                                        <img
+                                            src="./images/user/user1.jpg"
+                                            alt="user1"
+                                            class="image-cover rounded-full"
+                                        />
+                                    </span>
+                                    <div class="ml-1">
+                                        <span class="testimonials-user-name"
+                                            >mohammad</span
+                                        >
+                                        <a
+                                            href="#"
+                                            class="testimonials-user-twitter"
+                                            >@fazlali</a
+                                        >
+                                    </div>
+                                </div>
+                                <div class="testimonials-message">
+                                    <i
+                                        class="bi bi-quote testimonials-message-icon"
+                                    ></i>
+                                    Lorem ipsum dolor sit amet, consectetur
+                                    adipisicing elit. Atque officia
+                                    exercitationem porro reiciendis tempore ea
+                                    eum est numquam suscipit consectetur neque
+                                    harum autem placeat, assumenda asperiores
+                                    magnam illo adipisci officiis!
+                                </div>
+                            </div>
+
+                            <div class="testimonials-comment-col">
+                                <div class="testimonials-user">
+                                    <span class="testimonials-user-img">
+                                        <img
+                                            src="./images/user/user2.jpg"
+                                            alt="user2"
+                                            class="image-cover rounded-full"
+                                        />
+                                    </span>
+                                    <div class="ml-1">
+                                        <span class="testimonials-user-name"
+                                            >ehsan</span
+                                        >
+                                        <a
+                                            href="#"
+                                            class="testimonials-user-twitter"
+                                            >@rezaie</a
+                                        >
+                                    </div>
+                                </div>
+                                <div class="testimonials-message">
+                                    <i
+                                        class="bi bi-quote testimonials-message-icon"
+                                    ></i>
+                                    Lorem ipsum dolor sit amet, consectetur
+                                    adipisicing elit. Atque officia
+                                    exercitationem porro reiciendis tempore ea
+                                    eum est numquam suscipit consectetur neque
+                                    harum autem placeat, assumenda asperiores
+                                    magnam illo adipisci officiis!
+                                </div>
+                            </div>
+
+                            <div class="testimonials-comment-col">
+                                <div class="testimonials-user">
+                                    <span class="testimonials-user-img">
+                                        <img
+                                            src="./images/user/user3.jpg"
+                                            alt="user3"
+                                            class="image-cover rounded-full"
+                                        />
+                                    </span>
+                                    <div class="ml-1">
+                                        <span class="testimonials-user-name"
+                                            >alireza</span
+                                        >
+                                        <a
+                                            href="#"
+                                            class="testimonials-user-twitter"
+                                            >@davoodi</a
+                                        >
+                                    </div>
+                                </div>
+                                <div class="testimonials-message">
+                                    <i
+                                        class="bi bi-quote testimonials-message-icon"
+                                    ></i>
+                                    Lorem ipsum dolor sit amet, consectetur
+                                    adipisicing elit. Atque officia
+                                    exercitationem porro reiciendis tempore ea
+                                    eum est numquam suscipit consectetur neque
+                                    harum autem placeat, assumenda asperiores
+                                    magnam illo adipisci officiis!
+                                </div>
+                            </div>
+
+                            <div class="testimonials-comment-col">
+                                <div class="testimonials-user">
+                                    <span class="testimonials-user-img">
+                                        <img
+                                            src="./images/user/user4.jpg"
+                                            alt="user1"
+                                            class="image-cover rounded-full"
+                                        />
+                                    </span>
+                                    <div class="ml-1">
+                                        <span class="testimonials-user-name"
+                                            >shahdad</span
+                                        >
+                                        <a
+                                            href="#"
+                                            class="testimonials-user-twitter"
+                                            >@scandary</a
+                                        >
+                                    </div>
+                                </div>
+                                <div class="testimonials-message">
+                                    <i
+                                        class="bi bi-quote testimonials-message-icon"
+                                    ></i>
+                                    Lorem ipsum dolor sit amet, consectetur
+                                    adipisicing elit. Atque officia
+                                    exercitationem porro reiciendis tempore ea
+                                    eum est numquam suscipit consectetur neque
+                                    harum autem placeat, assumenda asperiores
+                                    magnam illo adipisci officiis!
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonials-right-col">
+                        <div class="row -mx-3 items-center">
+                            <div class="testimonials-gallery-col">
+                                <div class="testimonials-gallery">
+                                    <img
+                                        src="./images/category/chicken.jpg"
+                                        alt="chicken"
+                                        class="image-cover testimonials-gallery-img"
+                                        id="gallery"
+                                    />
+                                </div>
+                            </div>
+                            <div class="testimonials-gallery-col">
+                                <div class="testimonials-gallery">
+                                    <img
+                                        src="./images/category/chinese.jpg"
+                                        alt="chinese"
+                                        class="image-cover testimonials-gallery-img"
+                                        id="gallery"
+                                    />
+                                </div>
+                            </div>
+                            <div class="testimonials-gallery-col">
+                                <div class="testimonials-gallery">
+                                    <img
+                                        src="./images/category/chips.jpg"
+                                        alt="chips"
+                                        class="image-cover testimonials-gallery-img"
+                                        id="gallery"
+                                    />
+                                </div>
+                            </div>
+                            <div class="testimonials-gallery-col">
+                                <div class="testimonials-gallery">
+                                    <img
+                                        src="./images/category/humberger.jpg"
+                                        alt="humberger"
+                                        class="image-cover testimonials-gallery-img"
+                                        id="gallery"
+                                    />
+                                </div>
+                            </div>
+                            <div class="testimonials-gallery-col">
+                                <div class="testimonials-gallery">
+                                    <img
+                                        src="./images/category/pasta.jpg"
+                                        alt="pasta"
+                                        class="image-cover testimonials-gallery-img"
+                                        id="gallery"
+                                    />
+                                </div>
+                            </div>
+                            <div class="testimonials-gallery-col">
+                                <div class="testimonials-gallery">
+                                    <img
+                                        src="./images/category/pizza.jpg"
+                                        alt="piza"
+                                        class="image-cover testimonials-gallery-img"
+                                        id="gallery"
+                                    />
+                                </div>
+                            </div>
+                            <div class="testimonials-gallery-col">
+                                <div class="testimonials-gallery">
+                                    <img
+                                        src="./images/category/pizza.jpg"
+                                        alt="pizza"
+                                        class="image-cover testimonials-gallery-img"
+                                        id="gallery"
+                                    />
+                                </div>
+                            </div>
+                            <div class="testimonials-gallery-col">
+                                <div class="testimonials-gallery">
+                                    <img
+                                        src="./images/category/sandwich.jpg"
+                                        alt="sandwich"
+                                        class="image-cover testimonials-gallery-img"
+                                        id="gallery"
+                                    />
+                                </div>
+                            </div>
+                            <div class="testimonials-gallery-col">
+                                <div class="testimonials-gallery">
+                                    <img
+                                        src="./images/category/vegetable.jpg"
+                                        alt="vegetable"
+                                        class="image-cover testimonials-gallery-img"
+                                        id="gallery"
+                                    />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="lightbox" id="lightbox">
+            <div class="lightbox-body"></div>
+        </section>
+        <section class="download" id="download">
+            <div class="container">
+                <div class="row h-[450px] items-center">
+                    <div class="download-col">
+                        <h1 class="heading">download app</h1>
+                        <h1 class="download-heading">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing
+                            elit.
+                        </h1>
+                        <p class="download-paragraph">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing
+                            elit. Est obcaecati praesentium neque dignissimos
+                            quod unde sunt tenetur. Doloribus illum cum id
+                            facere labore mollitia, quaerat, nesciunt
+                            architecto, voluptatum impedit et!
+                        </p>
+                        <div class="mt-5 flex">
+                            <img src="./images/apple.png" alt="apple" />
+                            &nbsp;&nbsp;&nbsp;
+                            <img src="./images/google.png" alt="google" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="footer">
+            <div class="container">
+                <div class="row -mx-4">
+                    <div class="footer-logo-col">
+                        <a href="#" class="footer-logo-link">
+                            <img
+                                src="./images/logo.jpg"
+                                alt="logo"
+                                class="image-cover"
+                            />
+                        </a>
+                        <p class="footer-copyright">
+                            Copyright &copy; <span class="year"></span> right by
+                            online foods, Inc. All rights reserved.
+                        </p>
+                        <ul class="footer-socials">
+                            <a href="#"
+                                ><li class="bi bi-facebook text-orange-600"></li
+                            ></a>
+                            <a href="#"
+                                ><li class="bi bi-twitter text-orange-600"></li
+                            ></a>
+                            <a href="#"
+                                ><li
+                                    class="bi bi-instagram text-orange-600"
+                                ></li
+                            ></a>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h1 class="footer-heading">services</h1>
+                        <ul class="mt-6">
+                            <li>
+                                <a href="#" class="footer-service-link"
+                                    >online order</a
+                                >
+                            </li>
+                            <li>
+                                <a href="#" class="footer-service-link"
+                                    >super chat</a
+                                >
+                            </li>
+                            <li>
+                                <a href="#" class="footer-service-link"
+                                    >free reservation</a
+                                >
+                            </li>
+                            <li>
+                                <a href="#" class="footer-service-link"
+                                    >custom order</a
+                                >
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h1 class="footer-heading">quick links</h1>
+                        <ul class="mt-6">
+                            <li>
+                                <a href="#" class="footer-service-link"
+                                    >categories</a
+                                >
+                            </li>
+                            <li>
+                                <a href="#" class="footer-service-link"
+                                    >dishes</a
+                                >
+                            </li>
+                            <li>
+                                <a href="#" class="footer-service-link"
+                                    >pricing</a
+                                >
+                            </li>
+                            <li>
+                                <a href="#" class="footer-service-link"
+                                    >testimonials</a
+                                >
+                            </li>
+                            <li>
+                                <a href="#" class="footer-service-link"
+                                    >download app</a
+                                >
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h1 class="footer-heading">about</h1>
+                        <ul class="mt-6">
+                            <li>
+                                <a href="#" class="footer-service-link"
+                                    >our story</a
+                                >
+                            </li>
+                            <li>
+                                <a href="#" class="footer-service-link"
+                                    >benifits</a
+                                >
+                            </li>
+                            <li>
+                                <a href="#" class="footer-service-link"
+                                    >careers</a
+                                >
+                            </li>
+                            <li>
+                                <a href="#" class="footer-service-link"
+                                    >our chefs</a
+                                >
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h1 class="footer-heading">help</h1>
+                        <ul class="mt-6">
+                            <li>
+                                <a href="#" class="footer-service-link"
+                                    >contact us</a
+                                >
+                            </li>
+                            <li>
+                                <a href="#" class="footer-service-link"
+                                    >support</a
+                                >
+                            </li>
+                            <li>
+                                <a href="#" class="footer-service-link">faq</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="loader">
+            <div class="loader-element"></div>
+        </div>
+        <script type="module" src="./js/script.js"></script>
     </body>
 </html>

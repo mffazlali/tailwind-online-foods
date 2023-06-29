@@ -8,4 +8,9 @@
 @import './styles/dishes.css';
 @import './styles/buttons.css';
 @import './styles/pricing.css';
+@import './styles/testimonials.css';
+@import './styles/lightbox.css';
+@import './styles/download.css';
+@import './styles/footer.css';
+@import './styles/loader.css';
 @import 'tailwindcss/utilities';
